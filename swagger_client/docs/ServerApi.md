@@ -2,7 +2,6 @@
 
 All URIs are relative to *http://localhost:8080/Skoltech_OpenRAN_5G/iperf_load_balancer/0.1.0*
 
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**server_delete_ip**](ServerApi.md#server_delete_ip) | **POST** /addr_del | delete server IP

@@ -25,7 +25,7 @@ from pprint import pprint
 api_instance = swagger_client.ClientApi()
 
 try:
-# obtain iperf server ip list to connect to
+    # obtain iperf server ip list to connect to
     api_response = api_instance.client_obtain_ip()
     pprint(api_response)
 except ApiException as e:
